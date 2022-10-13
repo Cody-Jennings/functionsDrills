@@ -95,34 +95,35 @@
   //   firstname: firstname,
   //   lastname; lastname
   // }
-  
   // const zakk = makePerson('Zakk', 'F')
   // const jimmy = makePerson('Jimmy', 'B')
   // makePerson(firstname, lastname)
 
-  class Person {
-    constructor(firstname, lastname) {
-    this.firstname = firstname;
-    this.lastname = lastname;
-  
-  }
-}
-  const zakk = new Person('Zakk', 'F')
-  const jimmy = new Person('Jimmy', 'B')
-  //makePerson(firstname, lastname)
-  console.log(zakk, jimmy)
 
-  
-  
+//   class Person {
+//     constructor(firstname, lastname) {
+//     this.firstname = firstname;
+//     this.lastname = lastname;
+//   }
+// }
+//   const zakk = new Person('Zakk', 'F')
+//   const jimmy = new Person('Jimmy', 'B')
+//   //makePerson(firstname, lastname)
+//   console.log(zakk, jimmy)
+
+ 
   /*
    * Prompt 8:
    *
    * Write a function that returns an object. The object can be anything.
    */
-  // const homeworkPrompt = (problems, numbers) => {
-  //   return problems * numbers
+  // const homeworkPrompt = (weeks, days) => {
+  //   return weeks * days
   // }
-  // const numOfHomeworkPrompts = homeworkPrompt()
+  // const numOfTotalInstructionDays = homeworkPrompt(15, 5)
+  // console.log(numOfTotalInstructionDays)
+  //Not sure if I returned an object or not?
+
   /*
    * Prompt 9:
    *
@@ -143,7 +144,13 @@
    */
   
   /** Starter Code */
-  //let sum = 0
+  // let sum = 0
+  // const addingNumbers = (sum, 8) => {
+  //     return sum + 8;
+  //   }
+  //   addingNumbers()
+  //   console.log(sum)
+
   
   
   /*
@@ -154,16 +161,20 @@
    */
   // let arrayNumbers = [15, 16, 17]
   // const addingArrayNumbers = () => {
-
+  //     return d3.sum(arrayNumbers)
   // }
-  
+  // console.log(addingArrayNumbers.reduce())//?????????
   /*
    * Prompt 12:
    *
    * Write a function that takes a string and returns an array of every word in
    * the string.
    */
+  // const getAllWords = (str) => {
+  //   return str.split(' ');
+  // }
   
+  // console.log(getAllWords('I will duel syntax till the end of my days.'));
   
   /*
    * Prompt 13:
@@ -176,9 +187,9 @@
   //testFunc()()
 
   // const testFunc = () => {
-  //     console.log("this works.")
+  //     console.log("this works!")
   // }
-  // testFunc("this works")
+  // testFunc("this works!")
   
   /*
    * Prompt 14:
